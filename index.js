@@ -33,6 +33,14 @@ thake 2 goon bechi korbo
 // Fourth problem
 findingBadData
 
+/*
+age or numvers array ke input hisebe niba
+[1, 45, 13] --->
+[12, -2, 0, -15, -11]-->3
+[-14, 4, -5, -12, -16, 23, -23]---> 5
+*/
+
+
 // Fifth Probkem
 gemsToDiamond
 
@@ -45,3 +53,15 @@ third parameter --> 3rd frined er gems(43diya goon korbo)
 sob gulore 1000k 2goon er kom ha thke retrun kore diya dibo
 abar 1000 er bechi ha 2000 biyog kore retrun korbo
 */
+
+let numbers = [12, -23, 45, -54, -53, 13, -45, 99, -33]
+function findingBadData() {
+    let emptyArray = [];
+    for (i = 0; i < numbers.length; i++){
+        if (numbers[i] < 0) {
+            emptyArray.push(numbers[i]);
+        }
+    }
+    return emptyArray;
+}
+console.log(findingBadData());

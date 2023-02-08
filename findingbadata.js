@@ -5,5 +5,15 @@
 //     }
 // }
 
-var ageNumber = [12, -14, 54, -20, -30, 55, -15, -40];
-console.log(ageNumber.length);
+let numbers= [12, -14, 54, -20, -30, 55, -15, -40]
+function findingBadData(){
+   let emptyArray = [];
+   for (i = 0; i < numbers.length; i++){
+      if (numbers[i] <0) {
+         emptyArray.push(numbers[i]);
+      }
+   }
+   return emptyArray;
+}
+console.log(findingBadData());
+

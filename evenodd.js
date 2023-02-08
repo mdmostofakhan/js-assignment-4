@@ -1,9 +1,9 @@
-// function evenOdd (evenodd);
-// while (evenodd <= 2) {
-//     console.log(evenodd);
-//     // evenodd++;
-//     evenodd = evenodd + 2;
-// }
+function evenOdd (evenodd);
+while (evenodd <= 2) {
+    console.log(evenodd);
+    // evenodd++;
+    evenodd = evenodd + 2;
+}
 
 
 // totalMark = evenOdd('jack ma');

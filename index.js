@@ -53,15 +53,3 @@ third parameter --> 3rd frined er gems(43diya goon korbo)
 sob gulore 1000k 2goon er kom ha thke retrun kore diya dibo
 abar 1000 er bechi ha 2000 biyog kore retrun korbo
 */
-
-let numbers = [12, -23, 45, -54, -53, 13, -45, 99, -33]
-function findingBadData() {
-    let emptyArray = [];
-    for (i = 0; i < numbers.length; i++){
-        if (numbers[i] < 0) {
-            emptyArray.push(numbers[i]);
-        }
-    }
-    return emptyArray;
-}
-console.log(findingBadData());
